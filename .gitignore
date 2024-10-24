@@ -1,3 +1,9 @@
 ../.idea/
 .idea/*
 java-maven-app/.idea/
+java-app/.DS_Store
+java-app/.idea/*
+java-app/.gradle
+java-app/build
+java-app/out
+

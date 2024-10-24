@@ -7,3 +7,53 @@ java-app/.gradle
 java-app/build
 java-app/out
 
+
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+react-nodejs-example/dist
+react-nodejs-example/my-app/build
+react-nodejs-example/tmp
+react-nodejs-example/out-tsc
+# Only exists if Bazel was run
+react-nodejs-example/bazel-out
+
+# dependencies
+react-nodejs-example/node_modules
+react-nodejs-example/my-app/node_modules
+react-nodejs-example/api/node_modules
+
+# profiling files
+react-nodejs-example/chrome-profiler-events*.json
+react-nodejs-example/speed-measure-plugin*.json
+
+# IDEs and editors
+react-nodejs-example/.idea
+react-nodejs-example/.project
+react-nodejs-example/.classpath
+react-nodejs-example/.c9/
+react-nodejs-example/*.launch
+react-nodejs-example/.settings/
+react-nodejs-example/*.sublime-workspace
+
+# IDE - VSCode
+react-nodejs-example/.vscode/*
+react-nodejs-example/!.vscode/settings.json
+react-nodejs-example/!.vscode/tasks.json
+react-nodejs-example/!.vscode/launch.json
+react-nodejs-example/!.vscode/extensions.json
+react-nodejs-example/.history/*
+
+# misc
+react-nodejs-example/.sass-cache
+react-nodejs-example/connect.lock
+react-nodejs-example/coverage
+react-nodejs-example/libpeerconnection.log
+react-nodejs-example/npm-debug.log
+react-nodejs-example/yarn-error.log
+react-nodejs-example/testem.log
+react-nodejs-example/typings
+
+# System Files
+react-nodejs-example/.DS_Store
+react-nodejs-example/Thumbs.db%
